@@ -8,10 +8,12 @@ import { FaFacebook, FaTwitterSquare } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
 import { SiLeetcode } from "react-icons/si";
+import main from "../../../assets/lottie/main1.json"
+import AnimationLottie from "../../helper/animation-lottie";
 
 function HeroSection() {
   return (
-    <section className="relative flex flex-col items-center justify-between py-4 lg:py-12">
+    <section className="relative flex flex-col items-center justify-between lg:py-12">
  <Image
   src="/section.svg"
   alt="Hero"
@@ -21,7 +23,7 @@ function HeroSection() {
 />
 
 
-  <div className="grid grid-cols-1 items-start lg:grid-cols-2 lg:gap-12 gap-y-8">
+  <div className="grid grid-cols-1 items-start lg:grid-cols-2 lg:gap-12">
     {/* Left Side - Text */}
     <div className="order-2 lg:order-1 flex flex-col items-start justify-center p-2 pb-20 md:pb-10 lg:pt-10">
       <h1 className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
@@ -72,16 +74,10 @@ function HeroSection() {
     </div>
 
     {/* Right Side - Image */}
-    <div className="order-1 lg:order-2 flex justify-center lg:justify-end">
-    <Image
-  src="/main1.png"
-  alt="Hero"
-  width={600}
-  height={400}
-  className="max-w-full h-auto pt-[15px] sm:pt-0"
-/>
+    <div className="order-1 max-w-full h-[300px] mt-[-40px] sm:h-[500px] sm:pt-0 lg:order-2 flex justify-center lg:justify-end">
+  <AnimationLottie animationPath={main} />
+</div>
 
-    </div>
   </div>
 </section>
   );

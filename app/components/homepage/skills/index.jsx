@@ -39,13 +39,20 @@ function Skills() {
       <div className="w-full flex justify-center pt-6">
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
           {skillsData.map((skill, id) => (
+            
             <div
               key={id}
               className="group border border-[0.1px] flex flex-col items-center justify-center p-4 bg-[rgb(4,8,26)] rounded-full transition-transform duration-300 hover:scale-110 shadow-md shadow-gray-900"
+              style={{
+      backgroundImage: `url('/blur-23.svg')`,
+      backgroundSize: 'cover',
+    }}
+
             >
             
               {/* Skill Icon */}
               <div className="h-12 sm:h-14">
+   
                 <Image
                   src={skillsImage(skill)?.src}
                   alt={skill}
