@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
+import Image from "next/image";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,13 +19,12 @@ function Navbar() {
     <nav className="fixed top-0 left-0 w-full bg-transparent bg-opacity-90 shadow-md backdrop-blur-md z-50">
   <div className="container mx-auto flex items-center justify-between px-4 py-2 md:py-3">
     {/* Logo on the left */}
-    <Link href="/" className="flex items-center">
       <img
         src="/logo.webp"
         alt="Deep Kardani Logo"
         className="h-8 w-auto md:h-10 object-contain"
       />
-    </Link>
+    
 
     {/* Mobile Menu Button */}
     <div className="md:hidden">

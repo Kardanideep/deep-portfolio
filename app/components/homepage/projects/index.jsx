@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import ProjectCard from "./Project-card";
+import ProjectCard from "./project-card";
 import { projectsData } from "@/utils/data/projects-data";
 import { motion, AnimatePresence } from "framer-motion";
 
