@@ -51,7 +51,7 @@ function Experience() {
                   key={experience.id}
                   identifier={`experience-${experience.id}`}
                 >
-                  <div className="p-3 relative">
+                  <div className="p-3 relative border rounded-lg border-[0.5px]">
                     <Image
                       src="/blur-23.svg"
                       alt="Hero"

@@ -41,8 +41,9 @@ function Skills() {
           {skillsData.map((skill, id) => (
             <div
               key={id}
-              className="group flex flex-col items-center justify-center p-4 bg-[#11152c] border border-[#1f223c] rounded-lg transition-transform duration-300 hover:scale-110 shadow-md shadow-gray-900"
+              className="group border border-[0.1px] flex flex-col items-center justify-center p-4 bg-[rgb(4,8,26)] rounded-full transition-transform duration-300 hover:scale-110 shadow-md shadow-gray-900"
             >
+            
               {/* Skill Icon */}
               <div className="h-12 sm:h-14">
                 <Image
@@ -53,10 +54,12 @@ function Skills() {
                   className="h-full w-auto rounded-lg"
                 />
               </div>
+              
               {/* Skill Name */}
               <p className="text-white text-sm sm:text-base mt-3 font-medium">
                 {skill}
               </p>
+              
             </div>
           ))}
         </div>
