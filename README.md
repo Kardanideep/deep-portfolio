@@ -2,16 +2,8 @@
 
 Welcome to my **Next.js** portfolio! This project showcases my skills, projects, and experiences as a **Full-Stack Developer**, built with cutting-edge web technologies.
 
-## 🚀 Tech Stack
-- **Frontend**: Next.js, React, Tailwind CSS, ShadCN UI
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
-- **Other Tools**: Git, GitHub, Vercel
-
 ## 📂 Features
 - 🔥 Modern UI & Responsive Design
-- 📝 Blog Section with Markdown Support
-- 📈 Google Tag Manager Integration
 - ✉️ Contact Form with Telegram Bot & Gmail API
 
 ## 🛠️ Installation & Setup
