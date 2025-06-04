@@ -27,7 +27,7 @@ export const projectsData = [
         role: 'Full Stack Developer',
         code: '',
         demo: '',
-        link: "https://quick-card-26pd.onrender.com",
+        link: "https://quick-card1.onrender.com",
     },
     {
         id: 3,
