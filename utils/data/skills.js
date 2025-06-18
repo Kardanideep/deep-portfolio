@@ -9,7 +9,6 @@ export const skillsData = [
   'React',
   'MySQL',
   'MongoDB',
-  'PHP',
   'Bootstrap',
   'Tailwind',
   'ShadCN UI',
