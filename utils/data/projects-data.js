@@ -30,7 +30,7 @@ export const projectsData = [
         link: "https://quick-card1.onrender.com",
     },
     {
-        id: 4,
+        id: 3,
         img : "/Travel.jpg",
         img2:"/Screenshot (136).png",
         name: 'Hotels Guide Website',
@@ -45,7 +45,7 @@ export const projectsData = [
         link: "https://delta-project-kmys.onrender.com",
     },
     {
-        id: 5,
+        id: 4,
         img : "/weather.jpg",
         img2 : "/Screenshot (9).png",
         name: 'Weather Application',
@@ -60,7 +60,7 @@ export const projectsData = [
         link: "https://deep-weather-app.vercel.app/",
     },
     {
-        id: 6,
+        id: 5,
         img : "/simon.jpg",
         img2: '/Screenshot (132).png',
         name: 'Simon Game',
