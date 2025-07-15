@@ -2,7 +2,6 @@ export const skillsData = [
   'HTML',
   'CSS',
   'Javascript',
-  'Typescript',
   'NodeJS',
   'NextJS',
   'ExpressJS',
@@ -10,9 +9,6 @@ export const skillsData = [
   'MySQL',
   'MongoDB',
   'Bootstrap',
-  'Tailwind',
-  'ShadCN UI',
-  'MVC',
   'Git',
   'Github',
 ];
